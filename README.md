@@ -1,35 +1,38 @@
-# Laptop Recommender System
+# Bollywood Movie Recommender System
 
-This is a content-based laptop recommender system that uses machine learning algorithms to recommend laptops based on user preferences and laptop features. The system analyzes laptop specifications such as processor, RAM, storage, display and graphics card to provide personalized recommendations for informed laptop purchases.
+![Bollywood Movie Recommender System]()
 
-# Features
+A content-based recommendation system that suggests Bollywood movies based on user preferences. This project utilizes machine learning techniques and data from IMDb API to provide personalized movie recommendations.
 
-1) Content-based recommendation: Recommends laptops based on their features and user preferences.
-2) User-friendly interface: Provides an easy-to-use interface for inputting user preferences and receiving recommendations.
-3) Dataset: Utilizes a dataset of laptops with detailed specifications to generate accurate recommendations.
-4) Customizable: Can be easily extended to include additional features or algorithms to improve recommendation accuracy.
-5) Documentation: Includes documentation on how to use the recommender system and customize it for specific needs.
+## Features
 
-# How to Use
+- Fetches movie data from IMDb API to ensure up-to-date information.
+- Uses content-based filtering to recommend movies based on user preferences.
+- Supports various filtering options such as genre, release year, and cast.
+- Provides detailed movie information including plot, cast, ratings, and poster image.
+- Offers a user-friendly interface for easy movie browsing and recommendation retrieval.
 
-1) Install the required dependencies as specified in the documentation.
-2) Run the recommender system using the provided script or API.
-3) Input your laptop preferences, such as processor, RAM, storage, display, graphics card, and budget.
-4) Receive personalized laptop recommendations based on your preferences.
-5) Optionally, further customize the recommender system by modifying the dataset or algorithm according to your needs.
+## Installation
 
-# Screenshot
-To see a demo of the Laptop Recommender System in action, check out this video: 
-[![Laptop Recommender System Demo](https://img.youtube.com/vi/vEqL5eBjomc/maxresdefault.jpg)](https://www.youtube.com/watch?v=vEqL5eBjomc)
+1. Clone the repository: `git clone https://github.com/Huzaifa0111/bollywood-movie-recommender-system`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Request access to IMDb API and obtain API key.
+4. Set the IMDb API key in `app.py` file, inplace of ENTER_YOUR_API-KEY&.
+5. Run the application: `python app.py`
 
-# Contributing
+Note: Fetching movie images from IMDb API may take time due to API request limitations. Please be patient.
 
-Contributions to this laptop recommender system are welcome! If you have ideas for improvements, bug fixes, or new features, please open an issue or submit a pull request. Contributions will be reviewed and acknowledged accordingly.
+## Usage
 
-# License
+1. Open the application in your preferred web browser.
+2. Browse through movies or use the search functionality to find movies of interest.
+3. Filter movies based on genre, release year, or cast.
+4. Click on a movie to view detailed information including plot, cast, ratings, and poster image.
+5. Get personalized movie recommendations based on your movie preferences.
 
-This laptop recommender system is open source and released under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 
-# Acknowledgements
+## License
 
-This project was inspired by the need for a reliable and accurate laptop recommender system for users to make informed purchasing decisions.
+This project is released under the [MIT License](LICENSE).
+
+Enjoy discovering Bollywood movies with our recommender system! 🎥🎬 #MovieRecommender #Bollywood
