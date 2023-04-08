@@ -1,6 +1,6 @@
 # Bollywood Movie Recommender System
+![bollywood-movie-recommender-system](https://user-images.githubusercontent.com/87111556/230715806-e414b2f9-daea-4827-adc8-74b3a7155635.png)
 
-![Bollywood Movie Recommender System]()
 
 A content-based recommendation system that suggests Bollywood movies based on user preferences. This project utilizes machine learning techniques and data from IMDb API to provide personalized movie recommendations.
 
